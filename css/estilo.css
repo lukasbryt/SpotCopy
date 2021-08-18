@@ -1,0 +1,289 @@
+/*
+* 
+* @author Lucas Brito
+*/
+
+
+@media (max-width: 575.98px) {
+    .car-height {
+        padding-bottom: 100px;
+        padding-top: 100px;
+        height: 400px;
+    }
+    #f-logo {
+        padding-bottom: 30px;
+        width: 50%;
+    }
+    footer ul {
+        padding: 0px 0 30px 0;
+    }
+    footer li {
+        display: inline;
+        list-style: none;
+        float: right;
+        margin: 0 5px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 3em;
+    }
+
+    .btn-custom {
+        margin-bottom: 20px;
+    }
+
+ }/*END*/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .car-height {
+        padding-bottom: 100px;
+        padding-top: 100px;
+        height: 400px;
+    }
+    footer img {
+        padding-bottom: 30px;
+    }
+    .btn-custom {
+        margin-bottom: 20px;
+    } 
+    footer ul {
+        padding: 0px 0 30px 0;
+    }
+    footer li {
+        display: block;
+        list-style: none;
+        float: right;
+        margin: 0 5px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 3.7em;
+    }
+}/*END*/
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .car-height {
+        padding-bottom: 100px;
+        padding-top: 100px;
+        height: 400px;
+    }
+
+    footer li {
+        display: block;
+        list-style: none;
+        float: right;
+        margin: 5px;
+        text-align: center;
+    }
+    footer a, span {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 5em;
+    }
+    /*BAR*/
+    ::-webkit-scrollbar-track {
+        background-color: #ffffff;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        background: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #ff00b3;
+    }
+}/*END*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .car-height {
+        padding-bottom: 100px;
+        padding-top: 100px;
+        height: 500px;
+    }
+    footer li {
+        list-style: none;
+        margin: 10px;
+    }
+    h1 {
+        font-size: 6em;
+    }
+        /*BAR*/
+    ::-webkit-scrollbar-track {
+        background-color: #ffffff;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        background: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #ff00b3;
+    }
+}/*END*/
+
+@media (min-width: 1200px) { 
+    footer li {
+        display: inline;
+        list-style: none;
+        float: right;
+        margin: 0 5px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 6em;
+    }
+    /*BAR*/
+    ::-webkit-scrollbar-track {
+        background-color: #ffffff;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        background: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #ff00b3;
+    }
+}/*END*/
+
+/* Layout */
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+#home {
+    height: 100%;
+}
+body {
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+                background-attachment: fixed;
+}
+
+/* Nav Bar */
+
+nav.nav-trans {
+    background: rgba(0,0,0,0.6);
+    padding: 15px 0px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: #e69bf0;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.692);
+
+}
+
+.divisor {
+    width: 1px;
+    background: rgba(255, 255, 255, 0.692);
+    margin: 12px 15px;
+}
+
+/* Capa */
+.capa {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.btn-custom {
+    background-color: rgb(91, 0, 99);
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: white;
+    width: 300px;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: rgb(64, 0, 83);
+}
+
+.btn-2 {
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn-2:hover {
+    color: rgb(122, 0, 102);
+    background-color: white;
+}
+
+/*Serviços*/
+
+#services {
+    background: white;
+    padding: 20px 0 20px 0;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+#services h2, h3 {
+    color: #7b0086;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#resources p {
+    color: white;
+    font-weight: 500;
+}
+
+#resources h3 {
+    color: #fcaf3d;
+}
+
+#resources h2 {
+    color: #ffffff;
+}
+
+.phones {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+footer {
+    background-color: #52001f;
+    color: white;
+    padding: 30px 0 30px 0;
+    position: relative;
+}
+
+footer span {
+    font-weight: bolder;
+    color: #e67da5;
+}
+
+footer ul a {
+    color: white;
+}
+
+footer ul a:hover {
+    color: #e67da5;
+}
